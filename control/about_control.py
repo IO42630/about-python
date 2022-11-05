@@ -1,14 +1,13 @@
-
-a=1
+a = 1
 
 # CONDITIONALS -------------
 
-if a>1:
-    _= 1
-elif((a > 1) and (a < 1)):
-    _= 1
+if a > 1:
+    _ = 1
+elif (a > 1) and (a < 1):
+    _ = 1
 elif (a == 1) or (a >= 1):
-    _= 1
+    _ = 1
 elif not (a == 30):
     _ = 1
 else:
@@ -36,7 +35,7 @@ for x in [2, 4, 6, 8, 10]:
     print(x)
 
 # You can double up for loops to cycle through lists
-num_list = [[1, 2, 3], [10, 20, 30], [100, 200, 300]];
+num_list = [[1, 2, 3], [10, 20, 30], [100, 200, 300]]
 
 for x in range(0, 3):
     for y in range(0, 3):
@@ -47,16 +46,16 @@ for x in range(0, 3):
 # times you'll have to loop
 random_num = random.randrange(0, 100)
 
-while (random_num != 15):
+while random_num != 15:
     print(random_num)
     random_num = random.randrange(0, 100)
 
 # An iterator for a while loop is defined before the loop
 i = 0;
-while (i <= 20):
-    if (i % 2 == 0):
+while i <= 20:
+    if i % 2 == 0:
         print(i)
-    elif (i == 9):
+    elif i == 9:
         # Forces the loop to end all together
         break
     else:

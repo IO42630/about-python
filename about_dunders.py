@@ -3,11 +3,7 @@ class A:
     pass
 
 
-_=A.__class__.__name__
-
-
-
-
+_ = A.__class__.__name__
 
 '''
 main check, 

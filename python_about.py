@@ -4,7 +4,7 @@
 # dynamic typing -> new types are created on run time
 
 # supports procedural (only with functions (as in c)
-# and object oriented programming
+# and object-oriented programming
 # and partly functional programming
 
 # dynamic
@@ -14,7 +14,7 @@
 
 # interpreter
 
-# is opensouce
+# is opensource
 # often used in modules, so 'powerusers' can mod or automate the module
 
 # google uses python
@@ -22,4 +22,3 @@
 
 #  ipython - interactive python
 # has enhanced REPL (read-eval-print-loop)
-
