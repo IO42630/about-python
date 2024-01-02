@@ -2,18 +2,25 @@
 
 # Define Dict.
 
+d1 = {}
+d2 = dict()
 
-# Add ITEM
-dict['s'] = 3  # adds entry 's': 3
 
-dict = {
+d2['k1'] = 'v1'  # adds entry 's': 3
+
+d3 = {
     'k1': 'value1',
     'k2': 'value2',
     'k3': 'value3',
-    }
+}
+d4 = dict(k1='value1', k2='value2', k3='value3')
+print(d3['k1'])  # value1
 
-dict  # {'k2': 'value2', 'k3': 'value3', 'k1': 'value1'}
-dict['k1']  # value1
+
+# dictionary keys must be immutable (strings, numbers, tuples)
+
+
+
 del dict['k1']  # {'k2': 'value2', 'k3': 'value3'}
 dict['k3'] = 'new_value3'  # {'k2': 'value2', 'k3': 'new_value3'}
 len(dict)  # 2

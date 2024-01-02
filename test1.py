@@ -1,6 +1,3 @@
-
-from gateway_addon.adapter import Adapter
-from gateway_addon.device import Device
 from gateway_addon.property import Property
 
 

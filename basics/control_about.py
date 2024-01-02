@@ -1,6 +1,9 @@
 
 a=1
 
+for i in range(0, 10,2):
+    print(i)
+
 # CONDITIONALS -------------
 
 if a>1:
@@ -14,6 +17,8 @@ elif not (a == 30):
 else:
     _ = 1
 
+range(0, 10, 2)
+
 # FOR LOOPS -------------
 # Allows you to perform an action a set number of times
 # Range performs the action 10 times 0 - 9
@@ -22,6 +27,8 @@ for x in range(0, 10):
     continue
     print('never printed')
 print('\n')
+for x in range(10, 20, 4):
+    print(x, ' ', end="")
 
 # The continue statement continues with the next iteration of the loop
 

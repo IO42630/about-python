@@ -1,6 +1,3 @@
-import math
-
-
 class A:
 
     def do(self, number: int) -> int:

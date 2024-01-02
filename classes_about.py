@@ -5,8 +5,9 @@ class BaseClass:
     functions, data -[in class called]-> methods, attributes\n
     duck typing:\n
     check if object quacks like a duck and walks like a duck,\n
-    rather then asking whether the object is a duck.
+    rather than asking whether the object is a duck.
     """
+
 
     def __init__(self):
         """
@@ -16,6 +17,7 @@ class BaseClass:
         this happens because method which was defined inside a class\n
         is given the parameter 'self' by default when being called.
         """
+        self.name = None
 
     def set_name(self, name):
         # self is a reference to the class itself
@@ -49,7 +51,8 @@ def print_type(_):
 base_class = BaseClass()
 derived_class = DerivedClass()
 
-
+print(base_class.get_name())
+print(derived_class.get_name())
 print_type(base_class)
 print_type(derived_class)
 

@@ -1,6 +1,3 @@
-import sys
-
-
 # strongly typed (i.e. types are enforced),
 # dynamically, implicitly typed (i.e. you don’t have to declare variables),
 # case sensitive (i.e. var and VAR are two different variables)

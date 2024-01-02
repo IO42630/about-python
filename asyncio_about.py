@@ -2,7 +2,6 @@ import asyncio
 
 import aiohttp
 
-
 # EXPR must have .__aexit__ and .__aenter__
 EXPR = aiohttp.request('POST', 'http://127.0.0.1')
 BLOCK = 2
